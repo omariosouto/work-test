@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "site",
+    "components"
+  ],
+  "scripts": {
+    "site": "yarn workspace @org/site",
+    "dev:site": "yarn site dev",
+    "build:site": "yarn site build",
+    "components": "yarn workspace @org/components",
+    "dev:components": "yarn components dev",
+    "build:components": "yarn components build"
+  },
+  "name": "anon-project-v2",
+  "version": "1.0.0",
+  "license": "MIT"
+}
