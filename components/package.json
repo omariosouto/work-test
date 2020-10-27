@@ -1,5 +1,5 @@
 {
-  "name": "@org/components",
+  "name": "components",
   "version": "1.0.0",
   "license": "MIT",
   "peerDependencies": {

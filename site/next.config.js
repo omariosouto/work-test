@@ -6,7 +6,7 @@ const nextConfig = {
 }
 
 const withTM = require('next-transpile-modules')([
-  '@org/components',
+  'components',
 ]);
 
 module.exports = withPlugins(

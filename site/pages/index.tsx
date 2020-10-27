@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from '@org/components/src/Button'; 
+import { Button } from 'components/src/Button'; 
 
 const Section = styled.section`
   background: red;
